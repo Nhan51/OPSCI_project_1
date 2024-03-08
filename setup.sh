@@ -58,7 +58,7 @@ echo "0 - Wait until the page is loaded"
 echo "1 - Create an admin account"
 echo "2 - Create a collection named product with these fields"
 echo "    name: short text || description: long text || stock_available: integer (default 0)|| image: single media (only image) || barcode: short text"
-echo "3 - Generate a token and type it there : "
+echo "3 - Generate a token and type it there (please save the token before): "
 read token
 
 sed -E -i "2s/'[^']*'/'$token'/g" ./opsci-strapi-frontend/src/conf.ts

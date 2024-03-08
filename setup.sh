@@ -10,7 +10,7 @@ echo ""
 
 ## FICHIERS DOCKERS
 mkdir app
-mv docker-compose ./app
+mv docker-compose.yml ./app
 mv Dockerfile_frontend ./app
 mv Dockerfile_strapi ./app
 cd app

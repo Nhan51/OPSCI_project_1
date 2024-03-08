@@ -1,11 +1,11 @@
-# OPSCI Project
+# OPSCI Project at Sorbonne Université as part of a 3rd-year Bachelor's degree in Computer Science assignment
 https://arthurescriou.github.io/OPSCI/projet
 
 Students :
 - 28722336 - Christian VIEN
 - 21104733 - Luka Baly
 
-## First Deployment from the OPSCI Project at Sorbonne Université as part of a 3rd-year Bachelor's degree in Computer Science assignment
+## First Deployment
 
 This initial phase of deploying the "OPSCI infrastructure" involves initializing Docker and Docker Compose, which is divided into three dockerized parts: 
 -  strapi    : A CMS server based on Strapi (http://localhost:1337/))

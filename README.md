@@ -14,7 +14,8 @@ This initial phase of deploying the "OPSCI infrastructure" involves initializing
 
 This repository only contains all files written by us:
 -  "setup.sh" which serves as an installation guide. This file documents all the commands executed to complete this phase of the project thereby facilitating replication and avoiding previously encountered issues.
--  "start_docker.sh" which by default start the 3 containers from docker-compose.yml
+-  "start_docker.sh" which  start the application from docker-compose.ym,l
+-  "stop_docker.sh" which turn off the application
 -  "docker-compose.yml" and 2 Dockerfile :
 -  -  One for the front-end based on https://github.com/arthurescriou/opsci-strapi-frontend
    -  One for the CMS
